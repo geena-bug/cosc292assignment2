@@ -1,0 +1,3 @@
+/Users/regina/Library/CloudStorage/OneDrive-SaskatchewanPolytechnic/COSC292Assignment2/cmake-build-debug/CMakeFiles/COSC292Assignment2.dir
+/Users/regina/Library/CloudStorage/OneDrive-SaskatchewanPolytechnic/COSC292Assignment2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/regina/Library/CloudStorage/OneDrive-SaskatchewanPolytechnic/COSC292Assignment2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
