@@ -24,7 +24,6 @@
  * Purpose: This meant to dynamically allocate a string to store a vehicle's information.
  *          Value and model year are stored in the first 4 bytes.
  *          The remaining memory is for the description of the vehicle.
- * Parameters: None
  * Returns: a dynamically allocated block of memory containing the vehicle's information
  * By: Anyaso
  */
@@ -105,7 +104,6 @@ char* createVehicle() {
  *          Calls displayVehicle for each vehicle in the garage.
  * Parameters: char** - pointer to the garage
  *             int - number of vehicles in the garage
- * Returns: Nothing.
  * By: Anyaso
  */
 void displayGarage(char** garage, int numVehicles) {
