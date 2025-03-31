@@ -125,11 +125,10 @@ void displayGarage(char** garage, int numVehicles) {
 }
 
 /*
- * Stub implementations of Obey's functions for testing purposes only.
- * These will be replaced with the actual implementations from your partner.
+ *implementations of Obey's functions.
  */
 
-// Stub for displayVehicle
+// displayVehicle
 void displayVehicle(char* vehicle) {
     if (vehicle == NULL) {
         printf("Error: Vehicle pointer is NULL\n");
@@ -155,9 +154,9 @@ void displayVehicle(char* vehicle) {
     printf("Vehicle: %s, Year: %u, Value: $%u\n", description, year, value);
 }
 
-// Stub for createGarage
+// createGarage
 char** createGarage(int numVehicles) {
-    printf("Stub implementation: createGarage(%d)\n", numVehicles);
+    printf("createGarage(%d)\n", numVehicles);
 
     if (numVehicles <= 0) {
         printf("Error: Number of vehicles must be positive\n");
@@ -188,9 +187,9 @@ char** createGarage(int numVehicles) {
     return garage;
 }
 
-// Stub for removeVehicle
+//removeVehicle
 char** removeVehicle(char** garage, int numVehicles, int index) {
-    printf("Stub implementation: removeVehicle(%p, %d, %d)\n",
+    printf("removeVehicle(%p, %d, %d)\n",
            (void*)garage, numVehicles, index);
 
     if (garage == NULL) {

@@ -68,7 +68,7 @@ void testGarage()
     scanf_s("%c", &removeChoice, 1);
     clearInputBuffer();
 
-    if (removeChoice == 'y' || removeChoice == 'Y') {
+    if (removeChoice == 'yes' || removeChoice == 'Yes') {
         printf("Enter the index of the vehicle to remove (1-%d): ", numVehicles);
         scanf_s("%d", &removeIndex);
         clearInputBuffer();
@@ -178,7 +178,7 @@ void testBoundaryValues() {
     vehicle2[2] = (packedData >> 8) & 0xFF;
     vehicle2[3] = packedData & 0xFF;
 
-    description = "Max Year Test";
+    description = "Maximum Year Test";
     for (int i = 0; i <= 11; i++) {
         vehicle2[4 + i] = description[i];
     }
@@ -329,7 +329,7 @@ void testMultipleVehicles() {
     scanf_s("%c", &removeChoice, 1);
     clearInputBuffer();
 
-    if (removeChoice == 'y' || removeChoice == 'Y') {
+    if (removeChoice == 'yes' || removeChoice == 'Yes') {
         printf("Enter the index of the vehicle to remove (1-%d): ", numVehicles);
         scanf_s("%d", &removeIndex);
         clearInputBuffer();
